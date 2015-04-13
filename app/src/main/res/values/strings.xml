@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WPEditText</string>
+    <string name="validation_valid_field">valid</string>
+    <string name="validation_empty_field">empty</string>
+    <string name="validation_invalid_field">invalid</string>
+
+    <string name="test_wpedittext_hint">Hint</string>
+</resources>
