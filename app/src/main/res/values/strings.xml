@@ -1,5 +1,4 @@
 <resources>
-    <string name="wpedittext__app_title_name">WPEditText</string>
     <string name="wpedittext__validation_valid_field">valid</string>
     <string name="wpedittext__validation_empty_field">empty</string>
     <string name="wpedittext__validation_invalid_field">invalid</string>
