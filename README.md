@@ -9,6 +9,9 @@ Material design inspired EditText
 1. Gradle
 
 	````
+	repositories {
+    	jcenter()
+    }
 	dependencies {
     	compile 'org.webpartners.wpedittext:app:1.0.0@aar'
     }
