@@ -10,7 +10,7 @@ Material design inspired EditText
 
 	````
 	dependencies {
-    	compile org.webpartners.wpedittext:WPEditText:1.0.0
+    	compile 'org.webpartners.wpedittext:app:1.0.0@aar'
     }
     ````
     
