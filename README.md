@@ -38,7 +38,7 @@ Also supports minimum lenght restrinction for passwords
 3. Add WPEdittext to your layout and configure it
 
 	````
-	<org.werpartners.wpedittext.WPEditText
+	<org.webpartners.wpedittext.WPEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         wp:hint="@string/test_wpedittext_hint"
