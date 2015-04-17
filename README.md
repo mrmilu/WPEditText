@@ -1,5 +1,6 @@
 #WPEditText
-===
+
+[ ![Download](https://api.bintray.com/packages/firezenk/maven/WPEditText/images/download.svg) ](https://bintray.com/firezenk/maven/WPEditText/_latestVersion)
 
 Material design inspired EditText
 
