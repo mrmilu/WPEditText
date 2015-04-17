@@ -1,8 +1,19 @@
-#WPEditText
+#WPEditText [ ![Download](https://api.bintray.com/packages/firezenk/maven/WPEditText/images/download.svg) ](https://bintray.com/firezenk/maven/WPEditText/_latestVersion)
 
-[ ![Download](https://api.bintray.com/packages/firezenk/maven/WPEditText/images/download.svg) ](https://bintray.com/firezenk/maven/WPEditText/_latestVersion)
+Material design inspired EditText with icon support and validation included
 
-Material design inspired EditText
+![wpedittext_demo](https://cloud.githubusercontent.com/assets/1595403/7198136/6cdac6ba-e4e9-11e4-8d70-45451cb45159.png)
+
+Validation types:
+
+````
+TYPE_ALPHA
+TYPE_ALPHANUMERIC
+TYPE_EMAIL
+TYPE_PASSWORD
+````
+
+Also supports minimum lenght restrinction for passwords
 
 ###USAGE:
 
@@ -76,6 +87,7 @@ To get validation result
 
 ###LICENSE
 
+````
 The MIT License (MIT)
 
 Copyright (c) 2015 WebPartners
@@ -97,3 +109,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+````
