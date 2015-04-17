@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">WPEditText</string>
-    <string name="validation_valid_field">valid</string>
-    <string name="validation_empty_field">empty</string>
-    <string name="validation_invalid_field">invalid</string>
-
-    <string name="test_wpedittext_hint">Hint</string>
+    <string name="wpedittext__app_name">WPEditText</string>
+    <string name="wpedittext__validation_valid_field">valid</string>
+    <string name="wpedittext__validation_empty_field">empty</string>
+    <string name="wpedittext__validation_invalid_field">invalid</string>
+    <string name="wpedittext__sample_hint">Hint</string>
 </resources>

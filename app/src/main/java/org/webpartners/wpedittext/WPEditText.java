@@ -54,28 +54,28 @@ public class WPEditText extends LinearLayout implements TextWatcher {
 
         TypedArray a = context.getTheme().obtainStyledAttributes(
                 attributeSet,
-                R.styleable.WPEditText,
+                R.styleable.wpedittext__style,
                 0, 0);
 
         init();
 
         try {
             this.setupEditText(
-                    a.getResourceId(R.styleable.WPEditText_hint, R.string.test_wpedittext_hint),
-                    a.getInteger(R.styleable.WPEditText_type, TYPE_ALPHANUMERIC),
-                    a.getInteger(R.styleable.WPEditText_min_length, 8)
+                    a.getResourceId(R.styleable.wpedittext__style_wpedittext__hint, R.string.wpedittext__sample_hint),
+                    a.getInteger(R.styleable.wpedittext__style_wpedittext__type, TYPE_ALPHANUMERIC),
+                    a.getInteger(R.styleable.wpedittext__style_wpedittext__min_length, 8)
             );
             this.textColors(
-                    a.getColor(R.styleable.WPEditText_text_color, android.R.color.black),
-                    a.getColor(R.styleable.WPEditText_hint_color, android.R.color.darker_gray)
+                    a.getColor(R.styleable.wpedittext__style_wpedittext__text_color, android.R.color.black),
+                    a.getColor(R.styleable.wpedittext__style_wpedittext__hint_color, android.R.color.darker_gray)
             );
             this.validationText(
-                    a.getString(R.styleable.WPEditText_valid_message),
-                    a.getString(R.styleable.WPEditText_invalid_message),
-                    a.getString(R.styleable.WPEditText_empty_message)
+                    a.getString(R.styleable.wpedittext__style_wpedittext__valid_message),
+                    a.getString(R.styleable.wpedittext__style_wpedittext__invalid_message),
+                    a.getString(R.styleable.wpedittext__style_wpedittext__empty_message)
             );
             this.icon(a.getResourceId(
-                    R.styleable.WPEditText_header_icon,
+                    R.styleable.wpedittext__style_wpedittext__header_icon,
                     android.R.drawable.ic_dialog_info)
             );
         } finally {
@@ -87,7 +87,7 @@ public class WPEditText extends LinearLayout implements TextWatcher {
         setOrientation(LinearLayout.VERTICAL);
 
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.component_edittext, this, true);
+        View view = inflater.inflate(R.layout.wpedittext__component, this, true);
 
         this.icon = (ImageView) view.findViewById(R.id.icon);
         this.editText = (EditText) view.findViewById(R.id.edit_text);
@@ -96,9 +96,9 @@ public class WPEditText extends LinearLayout implements TextWatcher {
 
         this.editText.addTextChangedListener(this);
 
-        this.valid = context.getResources().getString(R.string.validation_valid_field);
-        this.invalid = context.getResources().getString(R.string.validation_invalid_field);
-        this.empty = context.getResources().getString(R.string.validation_empty_field);
+        this.valid = context.getResources().getString(R.string.wpedittext__validation_valid_field);
+        this.invalid = context.getResources().getString(R.string.wpedittext__validation_invalid_field);
+        this.empty = context.getResources().getString(R.string.wpedittext__validation_empty_field);
 
         this.validationText(this.valid, this.invalid, this.empty);
     }
