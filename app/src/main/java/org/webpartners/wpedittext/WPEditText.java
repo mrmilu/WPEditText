@@ -99,6 +99,8 @@ public class WPEditText extends LinearLayout implements TextWatcher {
         this.valid = context.getResources().getString(R.string.validation_valid_field);
         this.invalid = context.getResources().getString(R.string.validation_invalid_field);
         this.empty = context.getResources().getString(R.string.validation_empty_field);
+
+        this.validationText(this.valid, this.invalid, this.empty);
     }
 
     /**
