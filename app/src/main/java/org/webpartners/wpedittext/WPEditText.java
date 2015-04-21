@@ -31,7 +31,7 @@ public class WPEditText extends LinearLayout implements TextWatcher {
     private View underline;
 
     private int type;
-    private int minLength;
+    private int minLength = -1;
     private String valid;
     private String invalid;
     private String empty;
@@ -246,7 +246,7 @@ public class WPEditText extends LinearLayout implements TextWatcher {
                 break;
         }
 
-        if (s.length() < minLength) {
+        if (minLength != -1 && s.length() < minLength) {
             this.ok = false;
         }
 
