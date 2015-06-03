@@ -22,6 +22,7 @@ Also supports minimum lenght restrinction for passwords
 	````
 	repositories {
     	jcenter()
+    	mavenLocal()
     }
 	dependencies {
     	compile 'org.webpartners.wpedittext:app:1.0.2.3@aar'
