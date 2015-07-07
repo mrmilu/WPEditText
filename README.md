@@ -21,12 +21,13 @@ Also supports minimum lenght restrinction for passwords
 
 	````
 	repositories {
-    	jcenter()
-    	mavenLocal()
-    }
+	    maven {
+	        url "https://jitpack.io"
+	    }
+	}
 	dependencies {
-    	compile 'org.webpartners.wpedittext:app:1.0.2.3@aar'
-    }
+	        compile 'com.github.webpartners:WPEditText:1.0'
+	}
     ````
     
 2. Add the new xmls to your layout parent widget
