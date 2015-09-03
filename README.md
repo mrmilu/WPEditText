@@ -22,11 +22,12 @@ Also supports minimum lenght restrinction for passwords
 	````
 	repositories {
 	    maven {
-	        url "https://jitpack.io"
+	        ...
+	        jcenter()
 	    }
 	}
 	dependencies {
-	        compile 'com.github.webpartners:WPEditText:1.0'
+	        compile 'org.webpartners.wpedittext:app:1.0.2.3'
 	}
     ````
     
