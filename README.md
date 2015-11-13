@@ -21,15 +21,14 @@ Also supports minimum lenght restrinction for passwords
 
 	````
 	repositories {
-	    maven {
-	        ...
-	        jcenter()
-	    }
+		...
+	        maven { url 'https://github.com/FireZenk/maven-repo/raw/master/'}
 	}
 	dependencies {
-	        compile 'org.webpartners.wpedittext:app:1.0.2.3'
+	    	...
+	        compile 'org.webpartners:wpedittext:1.0.2.3@aar'
 	}
-    ````
+	````
     
 2. Add the new xmls to your layout parent widget
 
